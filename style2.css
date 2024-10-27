@@ -15,8 +15,8 @@ img{
 
 @media(max-width:600px){
     .Container{
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        padding: 10px;
     }
 }
 
