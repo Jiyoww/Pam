@@ -14,7 +14,6 @@ function CI( ){
 
 function checkPasscode(){
   if(passcode == 10312004){
-    //document.getElementById("passcodeDisplay").value = "HINDI KASAMA YUNG YEAR";
     alert("HINDI KASAMA YUNG YEAR");
     CI();
   }
@@ -22,7 +21,8 @@ function checkPasscode(){
     window.location.href = "second.html"
   }
   else{
-    document.getElementById("passcodeDisplay").value = "INCORRECT PASSCODE";
+    document.getElementById("passcodeDisplay");
+    alert("INCORRECT PASSCODE")
     CI();
   }
 }
